@@ -20,7 +20,7 @@ class MailcontactType extends AbstractType
                 'required' => true
                 ))         
                 
-            ->add('mail', 'text',array(
+            ->add('mail', 'email',array(
                 'label' => 'Votre e-mail *',
                 'attr' => array('class' => 'grid_6'),
                 'required' => true

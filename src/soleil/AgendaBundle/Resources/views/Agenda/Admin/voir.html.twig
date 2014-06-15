@@ -8,9 +8,9 @@
           <div class="col-lg-12">
             <h1>Agenda - Evenement - Voir</h1>
             <ol class="breadcrumb">
-              <li><a href="index.html"><i class="fa fa-dashboard"></i> Accueil</a></li>
-              <li><a href="#"><i class="fa fa-table"></i> Agenda </a></li>
-              <li class="active">voir</li>
+             <li><a href="{{ path('soleil_sous_site_accueil_admin') }}"><i class="fa fa-dashboard"></i> Accueil</a></li>
+                  <li><a href="{{ path('soleil_agenda_accueil_admin') }}"><i class="fa fa-dashboard"></i> Agenda</a></li>
+              <li class="active">Voir</li>
             </ol>
           </div>
         
@@ -22,8 +22,8 @@
             <h2> {{ ev.nomFr }} </h2>
              
             <p> 
-                Nombre max de participant : {{ ev.nbMax }}<br/>
-                Nombre inscri : {{ ev.nbInsc }}
+                Nombre max de participants : {{ ev.nbMax }}<br/>
+                Nombre inscrit : {{ ev.nbInsc }}
             </p>
             
             <p>
@@ -32,8 +32,8 @@
             </p>
             
             <p>
-                Date début : {{ ev.dateDeb|date("m/d/Y") }} {{ ev.dateDeb|date("H:i:s") }}<br/>
-                Date Fin : {{ ev.dateFin|date("m/d/Y") }} {{ ev.dateFin|date("H:i:s") }}<br/>  
+                Date de début : {{ ev.dateDeb|date("m/d/Y") }} {{ ev.dateDeb|date("H:i:s") }}<br/>
+                Date de fin : {{ ev.dateFin|date("m/d/Y") }} {{ ev.dateFin|date("H:i:s") }}<br/>  
             </p>
             
             

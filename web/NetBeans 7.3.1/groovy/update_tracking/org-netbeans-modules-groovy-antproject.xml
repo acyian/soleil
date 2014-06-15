@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.groovy.antproject">
+    <module_version install_time="1370465972813" last="true" origin="installer" specification_version="1.1.2">
+        <file crc="2553487176" name="config/Modules/org-netbeans-modules-groovy-antproject.xml"/>
+        <file crc="1894174801" name="modules/locale/org-netbeans-modules-groovy-antproject_ja.jar"/>
+        <file crc="1358704152" name="modules/locale/org-netbeans-modules-groovy-antproject_pt_BR.jar"/>
+        <file crc="1970667936" name="modules/locale/org-netbeans-modules-groovy-antproject_ru.jar"/>
+        <file crc="2933335526" name="modules/locale/org-netbeans-modules-groovy-antproject_zh_CN.jar"/>
+        <file crc="1276602559" name="modules/org-netbeans-modules-groovy-antproject.jar"/>
+    </module_version>
+</module>

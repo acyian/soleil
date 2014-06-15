@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.mobility.antext">
+    <module_version install_time="1370463451482" last="true" origin="installer" specification_version="1.20.1">
+        <file crc="2732800336" name="config/Modules/org-netbeans-modules-mobility-antext.xml"/>
+        <file crc="1952453780" name="modules/ext/ant-contrib-1.0b3.jar"/>
+        <file crc="1056845480" name="modules/locale/org-netbeans-modules-mobility-antext_ja.jar"/>
+        <file crc="280969881" name="modules/locale/org-netbeans-modules-mobility-antext_pt_BR.jar"/>
+        <file crc="2261225697" name="modules/locale/org-netbeans-modules-mobility-antext_ru.jar"/>
+        <file crc="1298283922" name="modules/locale/org-netbeans-modules-mobility-antext_zh_CN.jar"/>
+        <file crc="1019997590" name="modules/org-netbeans-modules-mobility-antext.jar"/>
+    </module_version>
+</module>

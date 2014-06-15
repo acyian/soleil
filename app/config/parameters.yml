@@ -12,9 +12,8 @@ parameters:
     mailer_password: null
     locale: fr
     secret: htyfhd58542fkjdkfhjknjgnjk55841
-    
     paypal_api_url:   https://api-3t.sandbox.paypal.com/nvp
     paypal_api_version:   114.0
     paypal_user:   pat_marchand_api1.hotmail.com
     paypal_pass:   1402126046
-    paypal_signature:  AFcWxV21C7fd0v3bYYYRCpSSRl31AV7kkXavicqYxVvzmVZfp90CZ5do     
+    paypal_signature:  AFcWxV21C7fd0v3bYYYRCpSSRl31AV7kkXavicqYxVvzmVZfp90CZ5do

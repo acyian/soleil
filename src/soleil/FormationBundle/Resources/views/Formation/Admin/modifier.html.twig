@@ -2,7 +2,18 @@
 
 {% block content %}
 
-    <h1>Admin - Formation - modifier (admin)</h1>
+    <div class="row">
+        
+          <div class="col-lg-12">
+            <h1>Formation</h1>
+            <ol class="breadcrumb">
+              <li><a href="{{ path('soleil_sous_site_accueil_admin') }}"><i class="fa fa-dashboard"></i> Accueil</a></li>
+              <li><a href="{{ path('soleil_formation_accueil_admin') }}"><i class="fa fa-align-justify"></i> Formation</a></li>
+              <li class="active">Modifier une formation</li>
+            </ol>
+          </div>
+        
+  </div><!-- /.row --> 
     
     {% include "soleilFormationBundle:Formation:Admin/formulaire.html.twig" %}
     

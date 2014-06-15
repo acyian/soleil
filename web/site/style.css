@@ -963,7 +963,13 @@ h1 {
 	opacity: 0.6;
 }
 
+#don a{
+    color: #045604;
+}
 
+#don a:hover{
+    color: #ea940a;
+}
 
 
 /*----- Custom calendar elements----- */

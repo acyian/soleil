@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.j2me.cdc.platform.nokias80">
+    <module_version install_time="1370464317800" last="true" origin="installer" specification_version="1.18.1">
+        <file crc="3442162953" name="config/Modules/org-netbeans-modules-j2me-cdc-platform-nokias80.xml"/>
+        <file crc="2868256812" name="modules/locale/org-netbeans-modules-j2me-cdc-platform-nokias80_ja.jar"/>
+        <file crc="269694783" name="modules/locale/org-netbeans-modules-j2me-cdc-platform-nokias80_pt_BR.jar"/>
+        <file crc="1241338402" name="modules/locale/org-netbeans-modules-j2me-cdc-platform-nokias80_ru.jar"/>
+        <file crc="303628191" name="modules/locale/org-netbeans-modules-j2me-cdc-platform-nokias80_zh_CN.jar"/>
+        <file crc="958114072" name="modules/org-netbeans-modules-j2me-cdc-platform-nokias80.jar"/>
+    </module_version>
+</module>

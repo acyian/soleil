@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.jellytools.enterprise/3">
+    <module_version install_time="1370465250857" last="true" origin="installer" specification_version="3.14.2">
+        <file crc="1828624115" name="config/Modules/org-netbeans-modules-jellytools-enterprise.xml"/>
+        <file crc="502211149" name="modules/locale/org-netbeans-modules-jellytools-enterprise_ja.jar"/>
+        <file crc="1455956240" name="modules/locale/org-netbeans-modules-jellytools-enterprise_pt_BR.jar"/>
+        <file crc="176019016" name="modules/locale/org-netbeans-modules-jellytools-enterprise_ru.jar"/>
+        <file crc="1020172808" name="modules/locale/org-netbeans-modules-jellytools-enterprise_zh_CN.jar"/>
+        <file crc="16535878" name="modules/org-netbeans-modules-jellytools-enterprise.jar"/>
+    </module_version>
+</module>

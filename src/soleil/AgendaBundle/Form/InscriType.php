@@ -15,12 +15,6 @@ class InscriType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('nom','text',array('label' => 'Votre nom * '))             
-           
-            ->add('datenaissance','date',array('label' => 'Votre date de naissance * '))
-            ->add('tel','text',array('label' => 'Votre téléphone * '))
-            ->add('mail','text',array('label' => 'Votre e-mail * '))
-                
             ->add('genre', 'choice', array(
                 'choices'   => array(
                     'Mme'   => 'Mme',
@@ -31,6 +25,13 @@ class InscriType extends AbstractType
                 'expanded' => true,
                 'label' => 'Votre civilité *',
             ))
+                
+            ->add('nom','text',array('label' => 'Votre nom * '))             
+           
+            ->add('datenaissance','date',array('label' => 'Votre date de naissance * '))
+            ->add('tel','text',array('label' => 'Votre téléphone * '))
+            ->add('mail','email',array('label' => 'Votre e-mail * '))
+               
         ;
     }
     

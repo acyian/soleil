@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.profiler.snaptracer/1">
+    <module_version install_time="1370464172272" last="true" origin="installer" specification_version="1.11.1">
+        <file crc="684430347" name="config/Modules/org-netbeans-modules-profiler-snaptracer.xml"/>
+        <file crc="2064147763" name="modules/locale/org-netbeans-modules-profiler-snaptracer_ja.jar"/>
+        <file crc="1082474916" name="modules/locale/org-netbeans-modules-profiler-snaptracer_pt_BR.jar"/>
+        <file crc="3332567245" name="modules/locale/org-netbeans-modules-profiler-snaptracer_ru.jar"/>
+        <file crc="2895963364" name="modules/locale/org-netbeans-modules-profiler-snaptracer_zh_CN.jar"/>
+        <file crc="2244122647" name="modules/org-netbeans-modules-profiler-snaptracer.jar"/>
+    </module_version>
+</module>

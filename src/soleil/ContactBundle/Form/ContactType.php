@@ -20,7 +20,7 @@ class ContactType extends AbstractType
             ->add('tel', 'text')
             ->add('gsm', 'text')
                 
-            ->add('mail', 'text')
+            ->add('mail', 'email')
             
         ;
     }

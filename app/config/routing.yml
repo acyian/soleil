@@ -1,6 +1,3 @@
-soleil_payement:
-    resource: "@soleilPayementBundle/Resources/config/routing.yml"
-    prefix:   /
 
 soleil_formation:
     resource: "@soleilFormationBundle/Resources/config/routing.yml"

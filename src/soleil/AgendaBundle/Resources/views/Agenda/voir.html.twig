@@ -10,8 +10,27 @@
 			<section id="don" class="grid_12 alpha omega">
 
                                 <h2 class="alignement_h2_etage2">{{ ev.nomFr }}</h2>
-                    
-				<p>
+
+                                <p> 
+                                    <strong>Nombre max de participants :</strong> {{ ev.nbMax }}<br/>
+                                </p>
+
+                                <p>
+                                    <strong>Formation :</strong> {{ ev.formation.titreFr }}<br/>
+                                    <strong>Prix :</strong> {{ ev.prix }} EUR
+                                </p>
+
+                                <p>
+                                    <strong>Date de début :</strong> {{ ev.dateDeb|date("d/m/Y") }} {{ ev.dateDeb|date("H:i:s") }}<br/>
+                                    <strong>Date de fin :</strong> {{ ev.dateFin|date("d/m/Y") }} {{ ev.dateFin|date("H:i:s") }}<br/>  
+                                </p>
+
+
+                                <h3> Description </h3>
+
+                                {{ ev.descriptionFr|raw }} 
+                                
+                                <p>
                                     
                                     {%if "now"|date('Ymd') >= ev.dateDeb|date("Ymd") %}
                                        <strong>Inscription :</strong> close
@@ -23,27 +42,9 @@
 
                                 </p>
 
-                                <p> 
-                                    <strong>Nombre max de participant :</strong> {{ ev.nbMax }}<br/>
-                                </p>
-
-                                <p>
-                                    <strong>Formation :</strong> {{ ev.formation.titreFr }}<br/>
-                                    <strong>Prix :</strong> {{ ev.prix }} EUR
-                                </p>
-
-                                <p>
-                                    <strong>Date début :</strong> {{ ev.dateDeb|date("d/m/Y") }} {{ ev.dateDeb|date("H:i:s") }}<br/>
-                                    <strong>Date Fin :</strong> {{ ev.dateFin|date("d/m/Y") }} {{ ev.dateFin|date("H:i:s") }}<br/>  
-                                </p>
-
-
-                                <h3> Description </h3>
-
-                                {{ ev.descriptionFr|raw }} 
-
 			</section>
 	</section>
-</section>     
+</section>   
+</section>
 {% endblock %}
 

@@ -1,0 +1,106 @@
+{% extends "::SousSite/Admin/baseAdmin.html.twig" %}
+
+{% block content %}
+        
+    <div class="row">
+        
+          <div class="col-lg-12">
+            <h1>Administration <small>  - {{ site.titreFr }}</small></h1>
+            <ol class="breadcrumb">
+              <li class="active"><i class="fa fa-dashboard"></i> Administration</li>
+            </ol>
+            
+            <div class="alert alert-success alert-dismissable">  
+              Welcome to SB Admin by <a class="alert-link" href="http://startbootstrap.com">Start Bootstrap</a>! Feel free to use this template for your admin needs! We are using a few different plugins to handle the dynamic tables and charts, so make sure you check out the necessary documentation links provided.
+            </div>
+            
+          </div>
+        
+        </div><!-- /.row -->
+        
+        <div class="row">
+        
+          <div class="col-lg-12">
+            
+            <ol class="breadcrumb">
+              <li class="active"><i class="fa fa-home"></i> Accueil</li>
+            </ol>
+              
+            
+              
+          </div>
+        
+        </div><!-- /.row -->
+        
+        <div class="row">
+            
+          <div class="col-lg-4">
+            <div class="panel panel-info">
+                
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <i class="fa fa-align-justify fa-5x"></i>
+                  </div>
+                  <div class="col-xs-9 text-left">
+                      <p class="announcement-heading"><small>Formations</small></p>
+                    
+                  </div>
+                </div>
+              </div>
+                
+              <a href="{{ path('soleil_formation_accueil_admin') }}">
+                <div class="panel-footer announcement-bottom">
+                    
+                  <div class="row">
+                    <div class="col-xs-6">
+                      Voir les formations
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <i class="fa fa-arrow-circle-right"></i>
+                    </div>
+                  </div>
+                    
+                </div>
+              </a>
+                
+            </div>
+          </div>
+            
+          <div class="col-lg-4">
+            <div class="panel panel-info">
+                
+              <div class="panel-heading">
+                <div class="row">
+                  <div class="col-xs-3">
+                    <i class="fa fa-pencil fa-5x"></i>
+                  </div>
+                  <div class="col-xs-9 text-left">
+                    <p class="announcement-heading"><small>Articles</small></p>
+                    
+                  </div>
+                </div>
+              </div>
+                
+              <a href="{{ path('soleil_article_accueil_admin') }}">
+                <div class="panel-footer announcement-bottom">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      Voir les articles
+                    </div>
+                    <div class="col-xs-6 text-right">
+                      <i class="fa fa-arrow-circle-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </a>
+                
+            </div>
+          </div>
+            
+        </div>
+
+    
+    
+
+{% endblock %}

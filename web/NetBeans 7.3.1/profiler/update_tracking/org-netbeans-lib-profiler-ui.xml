@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.lib.profiler.ui/1">
+    <module_version install_time="1370463338272" last="true" origin="installer" specification_version="1.23.1">
+        <file crc="71845750" name="config/Modules/org-netbeans-lib-profiler-ui.xml"/>
+        <file crc="2224502361" name="modules/locale/org-netbeans-lib-profiler-ui_ja.jar"/>
+        <file crc="4067960620" name="modules/locale/org-netbeans-lib-profiler-ui_pt_BR.jar"/>
+        <file crc="551748198" name="modules/locale/org-netbeans-lib-profiler-ui_ru.jar"/>
+        <file crc="3442445601" name="modules/locale/org-netbeans-lib-profiler-ui_zh_CN.jar"/>
+        <file crc="3287097264" name="modules/org-netbeans-lib-profiler-ui.jar"/>
+    </module_version>
+</module>

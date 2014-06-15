@@ -29,7 +29,6 @@ class AppKernel extends Kernel
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new soleil\FormationBundle\soleilFormationBundle(),
-            new soleil\PayementBundle\soleilPayementBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             //new JMS\Payment\CoreBundle\JMSPaymentCoreBundle(),
             //new JMS\Payment\PaypalBundle\JMSPaymentPaypalBundle(),

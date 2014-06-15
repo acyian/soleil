@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.javacard.platform.ui/1">
+    <module_version install_time="1370464533016" last="true" origin="installer" specification_version="1.13.1">
+        <file crc="1957367714" name="config/Modules/org-netbeans-modules-javacard-platform-ui.xml"/>
+        <file crc="4242503104" name="modules/locale/org-netbeans-modules-javacard-platform-ui_ja.jar"/>
+        <file crc="504821292" name="modules/locale/org-netbeans-modules-javacard-platform-ui_pt_BR.jar"/>
+        <file crc="2089424756" name="modules/locale/org-netbeans-modules-javacard-platform-ui_ru.jar"/>
+        <file crc="3963588885" name="modules/locale/org-netbeans-modules-javacard-platform-ui_zh_CN.jar"/>
+        <file crc="2258553141" name="modules/org-netbeans-modules-javacard-platform-ui.jar"/>
+    </module_version>
+</module>

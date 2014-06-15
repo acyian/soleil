@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.jellytools.ide/3">
+    <module_version install_time="1370464414581" last="true" origin="installer" specification_version="3.17.2.1">
+        <file crc="3504672906" name="config/Modules/org-netbeans-modules-jellytools-ide.xml"/>
+        <file crc="2417529874" name="modules/locale/org-netbeans-modules-jellytools-ide_ja.jar"/>
+        <file crc="3401149281" name="modules/locale/org-netbeans-modules-jellytools-ide_pt_BR.jar"/>
+        <file crc="3067994951" name="modules/locale/org-netbeans-modules-jellytools-ide_ru.jar"/>
+        <file crc="2203972135" name="modules/locale/org-netbeans-modules-jellytools-ide_zh_CN.jar"/>
+        <file crc="477815836" name="modules/org-netbeans-modules-jellytools-ide.jar"/>
+    </module_version>
+</module>

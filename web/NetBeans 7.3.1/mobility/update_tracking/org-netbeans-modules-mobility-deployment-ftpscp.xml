@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.mobility.deployment.ftpscp">
+    <module_version install_time="1370464135406" last="true" origin="installer" specification_version="1.20.1">
+        <file crc="306037719" name="config/Modules/org-netbeans-modules-mobility-deployment-ftpscp.xml"/>
+        <file crc="2498279105" name="modules/locale/org-netbeans-modules-mobility-deployment-ftpscp_ja.jar"/>
+        <file crc="1279212232" name="modules/locale/org-netbeans-modules-mobility-deployment-ftpscp_pt_BR.jar"/>
+        <file crc="3420205790" name="modules/locale/org-netbeans-modules-mobility-deployment-ftpscp_ru.jar"/>
+        <file crc="2830692628" name="modules/locale/org-netbeans-modules-mobility-deployment-ftpscp_zh_CN.jar"/>
+        <file crc="3006334190" name="modules/org-netbeans-modules-mobility-deployment-ftpscp.jar"/>
+        <file crc="3527533691" name="modules/scr/deploy-ftp-impl.xml"/>
+        <file crc="1507322733" name="modules/scr/deploy-scp-impl.xml"/>
+    </module_version>
+</module>

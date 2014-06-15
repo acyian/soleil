@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.php.help">
+    <module_version install_time="1370462911394" last="true" origin="installer" specification_version="1.16.1">
+        <file crc="3707855441" name="config/Modules/org-netbeans-modules-php-help.xml"/>
+        <file crc="95085564" name="modules/docs/org-netbeans-modules-php-help.jar"/>
+        <file crc="2571388446" name="modules/locale/org-netbeans-modules-php-help_ja.jar"/>
+        <file crc="2005802639" name="modules/locale/org-netbeans-modules-php-help_pt_BR.jar"/>
+        <file crc="3207663317" name="modules/locale/org-netbeans-modules-php-help_ru.jar"/>
+        <file crc="3444944579" name="modules/locale/org-netbeans-modules-php-help_zh_CN.jar"/>
+        <file crc="1537210743" name="modules/org-netbeans-modules-php-help.jar"/>
+    </module_version>
+</module>

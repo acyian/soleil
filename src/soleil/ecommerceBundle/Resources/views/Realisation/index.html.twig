@@ -19,7 +19,12 @@
                                 {% if i==5 %} {% set i = 1 %} {% endif %}
                             
 				<div class="doubleArticle">
-					<article class="grid_3_realisations realisation{{i}} ecran2Realisation">
+                                    {% if loop.index is divisibleby(3) %}
+                                        <article class="grid_3_realisations realisation{{i}} ecran2RealisationUnique ">
+                                    {% else %}
+                                        <article class="grid_3_realisations realisation{{i}} ecran2Realisation">
+                                    {% endif %}
+					
 					
 						<h3>{{ r.titreFr}}</h3>
 						<figure>

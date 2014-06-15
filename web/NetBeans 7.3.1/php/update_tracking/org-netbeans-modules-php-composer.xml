@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.php.composer/0">
+    <module_version install_time="1370466096369" last="true" origin="installer" specification_version="0.8.1">
+        <file crc="3668698384" name="config/Modules/org-netbeans-modules-php-composer.xml"/>
+        <file crc="1947168021" name="modules/locale/org-netbeans-modules-php-composer_ja.jar"/>
+        <file crc="211101747" name="modules/locale/org-netbeans-modules-php-composer_pt_BR.jar"/>
+        <file crc="2428400583" name="modules/locale/org-netbeans-modules-php-composer_ru.jar"/>
+        <file crc="4142407502" name="modules/locale/org-netbeans-modules-php-composer_zh_CN.jar"/>
+        <file crc="715249273" name="modules/org-netbeans-modules-php-composer.jar"/>
+    </module_version>
+</module>

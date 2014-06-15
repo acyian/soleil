@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.web.jsf.navigation/1">
+    <module_version install_time="1370466587392" last="true" origin="installer" specification_version="2.19.1">
+        <file crc="789051327" name="config/Modules/org-netbeans-modules-web-jsf-navigation.xml"/>
+        <file crc="2437536717" name="modules/locale/org-netbeans-modules-web-jsf-navigation_ja.jar"/>
+        <file crc="4021880794" name="modules/locale/org-netbeans-modules-web-jsf-navigation_pt_BR.jar"/>
+        <file crc="3818370937" name="modules/locale/org-netbeans-modules-web-jsf-navigation_ru.jar"/>
+        <file crc="2759336292" name="modules/locale/org-netbeans-modules-web-jsf-navigation_zh_CN.jar"/>
+        <file crc="4085555119" name="modules/org-netbeans-modules-web-jsf-navigation.jar"/>
+    </module_version>
+</module>

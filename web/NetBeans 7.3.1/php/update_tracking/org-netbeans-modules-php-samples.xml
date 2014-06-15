@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.php.samples">
+    <module_version install_time="1370463993229" last="true" origin="installer" specification_version="1.20.1">
+        <file crc="2189288612" name="config/Modules/org-netbeans-modules-php-samples.xml"/>
+        <file crc="1808061513" name="modules/locale/org-netbeans-modules-php-samples_ja.jar"/>
+        <file crc="1080814804" name="modules/locale/org-netbeans-modules-php-samples_pt_BR.jar"/>
+        <file crc="1357186625" name="modules/locale/org-netbeans-modules-php-samples_ru.jar"/>
+        <file crc="2473924822" name="modules/locale/org-netbeans-modules-php-samples_zh_CN.jar"/>
+        <file crc="3723284869" name="modules/org-netbeans-modules-php-samples.jar"/>
+    </module_version>
+</module>

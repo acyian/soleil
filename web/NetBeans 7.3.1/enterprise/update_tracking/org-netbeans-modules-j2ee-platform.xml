@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.j2ee.platform/1">
+    <module_version install_time="1370462864018" last="true" origin="installer" specification_version="1.24.3">
+        <file crc="1128986410" name="config/Modules/org-netbeans-modules-j2ee-platform.xml"/>
+        <file crc="3515667774" name="docs/javaee-doc-api.jar"/>
+        <file crc="2375945302" name="modules/docs/org-netbeans-modules-j2ee-platform.jar"/>
+        <file crc="1663008563" name="modules/locale/org-netbeans-modules-j2ee-platform_ja.jar"/>
+        <file crc="3637988242" name="modules/locale/org-netbeans-modules-j2ee-platform_pt_BR.jar"/>
+        <file crc="3329918842" name="modules/locale/org-netbeans-modules-j2ee-platform_ru.jar"/>
+        <file crc="730637141" name="modules/locale/org-netbeans-modules-j2ee-platform_zh_CN.jar"/>
+        <file crc="1444153654" name="modules/org-netbeans-modules-j2ee-platform.jar"/>
+    </module_version>
+</module>

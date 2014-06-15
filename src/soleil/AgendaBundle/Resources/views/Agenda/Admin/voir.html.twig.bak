@@ -1,0 +1,49 @@
+
+{% extends "::SousSite/Admin/baseAdmin.html.twig" %}
+
+{% block content %}
+
+    <div class="row">
+        
+          <div class="col-lg-12">
+            <h1>Agenda - Evenement - Voir</h1>
+            <ol class="breadcrumb">
+             <li><a href="{{ path('soleil_sous_site_accueil_admin') }}"><i class="fa fa-dashboard"></i> Accueil</a></li>
+                  <li><a href="{{ path('soleil_agenda_accueil_admin') }}"><i class="fa fa-dashboard"></i> Agenda</a></li>
+              <li class="active">Voir</li>
+            </ol>
+          </div>
+        
+    </div><!-- /.row -->
+    
+    <div class="row">
+        <div class="col-lg-6">
+            
+            <h2> {{ ev.nomFr }} </h2>
+             
+            <p> 
+                Nombre max de participant : {{ ev.nbMax }}<br/>
+                Nombre inscri : {{ ev.nbInsc }}
+            </p>
+            
+            <p>
+                Formation : <a href="{{ path('soleil_formation_voir_admin', {'slug':ev.formation.slug}) }}">{{ ev.formation.titreFr }}</a><br/>
+                Prix : {{ ev.prix }}
+            </p>
+            
+            <p>
+                Date début : {{ ev.dateDeb|date("m/d/Y") }} {{ ev.dateDeb|date("H:i:s") }}<br/>
+                Date Fin : {{ ev.dateFin|date("m/d/Y") }} {{ ev.dateFin|date("H:i:s") }}<br/>  
+            </p>
+            
+            
+            
+            <h3> Description </h3>
+            
+            {{ ev.descriptionFr|raw }} 
+            
+        </div>
+            
+    </div>
+    
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "::SousSite/base.html.twig" %}
+
+{% block content %}
+
+
+<section id="etage2" class="alignement_etage2">
+<section id="etage2" class="alignement_etage2">
+	<section id="contenu" class="container">
+
+			<section id="don" class="grid_12 alpha omega">
+
+                                <h2 class="alignement_h2_etage2">{{ ev.nomFr }}</h2>
+                    
+				<p>
+                                    
+                                    {%if "now"|date('Ymd') >= ev.dateDeb|date("Ymd") %}
+                                       <strong>Inscription :</strong> close
+                                    {% elseif ev.nbMax  == ev.nbInsc %}                  
+                                       <strong>Inscription :</strong> complet
+                                     {% else %}
+                                        <a href="{{ path('soleil_inscription_paiement_details',{'slug_ev':ev.slug}) }}">S'inscrire</a>
+                                    {% endif %}
+
+                                </p>
+
+                                <p> 
+                                    <strong>Nombre max de participant :</strong> {{ ev.nbMax }}<br/>
+                                </p>
+
+                                <p>
+                                    <strong>Formation :</strong> {{ ev.formation.titreFr }}<br/>
+                                    <strong>Prix :</strong> {{ ev.prix }} EUR
+                                </p>
+
+                                <p>
+                                    <strong>Date début :</strong> {{ ev.dateDeb|date("d/m/Y") }} {{ ev.dateDeb|date("H:i:s") }}<br/>
+                                    <strong>Date Fin :</strong> {{ ev.dateFin|date("d/m/Y") }} {{ ev.dateFin|date("H:i:s") }}<br/>  
+                                </p>
+
+
+                                <h3> Description </h3>
+
+                                {{ ev.descriptionFr|raw }} 
+
+			</section>
+	</section>
+</section>     
+{% endblock %}
+

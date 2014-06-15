@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.bugzilla.exceptionreporter">
+    <module_version install_time="1370464724250" last="true" origin="installer" specification_version="1.12.1">
+        <file crc="1879562191" name="config/Modules/org-netbeans-modules-bugzilla-exceptionreporter.xml"/>
+        <file crc="3275284696" name="modules/locale/org-netbeans-modules-bugzilla-exceptionreporter_ja.jar"/>
+        <file crc="2026156103" name="modules/locale/org-netbeans-modules-bugzilla-exceptionreporter_pt_BR.jar"/>
+        <file crc="1783208013" name="modules/locale/org-netbeans-modules-bugzilla-exceptionreporter_ru.jar"/>
+        <file crc="3545029497" name="modules/locale/org-netbeans-modules-bugzilla-exceptionreporter_zh_CN.jar"/>
+        <file crc="1631827920" name="modules/org-netbeans-modules-bugzilla-exceptionreporter.jar"/>
+    </module_version>
+</module>
